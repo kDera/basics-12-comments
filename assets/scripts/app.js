@@ -40,7 +40,16 @@ function divide() {
   createAndWriteOutput('/', initialResult, enteredNumber);
 }
 
+function divide() {
+  const enteredNumber = getUserNumberInput();
+  const initialResult = currentResult;
+  currentResult /= enteredNumber;
+  createAndWriteOutput('/', initialResult, enteredNumber);
+}
+
 addBtn.addEventListener('click', add);
 subtractBtn.addEventListener('click', subtract);
 multiplyBtn.addEventListener('click', multiply);
 divideBtn.addEventListener('click', divide);
+
+// novo teste

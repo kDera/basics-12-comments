@@ -11,3 +11,6 @@ function outputResult(result, text) {
   currentResultOutput.textContent = result;
   currentCalculationOutput.textContent = text;
 }
+
+// treino git vamo que vamo
+
