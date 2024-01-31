@@ -23,7 +23,7 @@ function add() {
     prevResult: initialResult,
     number: enteredNumber,
     result: currentResult
-  };
+  };//teste commit
   logEntries.push(logEntry);
   console.log(logEntries);
 }
