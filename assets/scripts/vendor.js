@@ -7,7 +7,7 @@ const divideBtn = document.getElementById('btn-divide');
 const currentResultOutput = document.getElementById('current-result');
 const currentCalculationOutput = document.getElementById('current-calculation');
 
-//estudar viu
+//estudar viu cuida cuida
 
 function outputResult(result, text) {
   currentResultOutput.textContent = result;
