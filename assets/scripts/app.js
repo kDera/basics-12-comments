@@ -12,6 +12,7 @@ function createAndWriteOutput(operator, resultBeforeCalc, calcNumber) {
   const calcDescription = `${resultBeforeCalc} ${operator} ${calcNumber}`;
   outputResult(currentResult, calcDescription); // from vendor file
 }
+//notebook IB
 
 function add() {
   const enteredNumber = getUserNumberInput();
