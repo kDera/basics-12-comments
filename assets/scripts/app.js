@@ -12,6 +12,7 @@ function createAndWriteOutput(operator, resultBeforeCalc, calcNumber) {
   const calcDescription = `${resultBeforeCalc} ${operator} ${calcNumber}`;
   outputResult(currentResult, calcDescription); // from vendor file
 }
+//notebook IB
 
 function add() {
   const enteredNumber = getUserNumberInput();
@@ -20,10 +21,8 @@ function add() {
   createAndWriteOutput('+', initialResult, enteredNumber);
   const logEntry = {
     operation: 'ADD',
-    prevResult: initialResult,
-    number: enteredNumber,
-    result: currentResult
-  };//@@@@@@@@@@@@@@@@@
+    prevResult: initialResult, number: enteredNumber, result: currentResult
+  };
   logEntries.push(logEntry);
   console.log(logEntries);
 }
